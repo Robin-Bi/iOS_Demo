@@ -12,4 +12,4 @@ typedef CGFLOAT_TYPE CGFloat;
 # define CGFLOAT_MAX FLT_MAX
 #endif
 
-结论是：CGFloat 能够保证代码在64位和32情况下都安全，虽然可能造成一定的消耗
+结论是：CGFloat 能够保证代码在64位和32位情况下都安全，虽然可能造成一定的消耗
